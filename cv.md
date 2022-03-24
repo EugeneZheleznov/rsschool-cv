@@ -75,5 +75,5 @@ console.log(isPrime(10, 2, 4));
 
 ### Languages
 
-Russian - native
-English - Elementary
+- Russian - native
+- English - Elementary
