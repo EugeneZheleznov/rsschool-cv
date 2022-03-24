@@ -1,9 +1,9 @@
 # Evgenii Zheleznov
 
 ### Contacts:
-**Phone.:** +7 999-204-51-09 
-**Email:** zheleznov.evgeniy@mail.ru
-**Telegram:** https://t.me/evgeniy_zheleznov
+- **Phone.:** +7 999-204-51-09 
+- **Email:** zheleznov.evgeniy@mail.ru
+- **Telegram:** https://t.me/evgeniy_zheleznov
 
 
 *********
@@ -50,10 +50,16 @@ console.log(isPrime(10, 2, 4));
 ```
 
 
+*********
+
+
 ### Experience:
 
 - web programmer - about 5 years
 - courses Hexlet (layout designer, JS)
+
+
+*********
 
 
 ### Education
@@ -62,6 +68,9 @@ console.log(isPrime(10, 2, 4));
 - 2021 courses Hexlet (layout designer, JS)
 - 2012 Ugra Polytechnic College - "Maintenance and repair of motor transport", Technician
 - 2010 Ugra Polytechnic College - "Car mechanic", Car repair mechanic (3rd category). , Driver of category "B", "C"
+
+
+*********
 
 
 ### English language
