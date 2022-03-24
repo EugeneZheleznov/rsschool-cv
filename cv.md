@@ -16,7 +16,7 @@ And also in the future to learn how to write programs on Phyton, Kotlin, create 
 *********
 
 
-### Навыки: 
+### Scills: 
 - HTML, CSS (SCSS)
 - GULP, Git
 - JS Basics
@@ -28,7 +28,7 @@ And also in the future to learn how to write programs on Phyton, Kotlin, create 
 *********
 
 
-###Code example:
+### Code example:
 
 
 Implement and export a default function that counts the sum of all natural numbers less than n (the first argument) that are divisible by the numbers a or b (the second and third arguments) without remainder. n - can only be a natural number.
@@ -48,3 +48,23 @@ return result;
 
 console.log(isPrime(10, 2, 4));
 ```
+
+
+### Experience:
+
+- web programmer - about 5 years
+- courses Hexlet (layout designer, JS)
+
+
+### Education
+
+
+- 2021 courses Hexlet (layout designer, JS)
+- 2012 Ugra Polytechnic College - "Maintenance and repair of motor transport", Technician
+- 2010 Ugra Polytechnic College - "Car mechanic", Car repair mechanic (3rd category). , Driver of category "B", "C"
+
+
+### English language
+
+
+Level - Elementary
