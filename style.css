@@ -21,7 +21,7 @@ h2 {
 
 a, p, li, span, div {
     font-family: sans-serif; 
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     color: #d9d9d9;
 	line-height: 1.5;
@@ -35,21 +35,46 @@ a:hover {
 	text-decoration: underline;
 }
 
-li {
+ul {
+	padding-left: 20px;
 	list-style: none;
+}
+ul li {
+	position: relative;
+	display: flex;
+    flex-wrap: wrap;
+}
+ul li:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+ul li:before {
+	content: '';
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #7474aa;
+	position: absolute;
+	top: 50%;
+    left: -20px;
+    transform: translateY(-50%);
 }
 li strong {
 	color: #7474aa;
+	margin-right: 15px;
 }
 
-code {
-	background: lightgray;
-	color: black;
+.code__wrap {
+	padding: 30px; 
+}
+code { 
+	color: #00ffb4;  
 }
 
 hr {
-	width: 100%;
-	margin: 15px 0;
+	max-width: 1200px;
+    width: 100%;
+    margin: 50px auto;
 	border-image-slice: 1;
 	border-image-source: linear-gradient(270deg, rgba(9, 228, 97, 0) 0%, rgb(206, 239, 0) 17.19%, rgb(81, 249, 128) 34.38%, rgb(45, 81, 237) 50%, rgb(0, 96, 241) 67.19%, rgb(241, 0, 217) 83.33%, rgba(45, 73, 85, 0) 99.75%);
 }
@@ -57,19 +82,24 @@ hr {
 body {
 	background: #130a2a;
 	overflow-x: hidden;
-	position: relative;
-	max-width: 1920px;
+	position: relative; 
 }
 
-header {
-	display: flex;
-    flex-wrap: wrap;
-
+header { 
 	max-width: 1200px;
-	margin: auto;
-	background: #1a173f;
+	margin: auto; 
 	padding: 15px;
 }
+
+.header__wrap {
+	display: flex;
+    flex-wrap: wrap;
+	border-radius: 25px; 
+	padding: 50px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 8px 8px;	
+	background: #1a173f;
+}
+ 
 
 .header__title {
 	width: 100%;
@@ -93,10 +123,45 @@ header {
 
 .header__contacts {
 	width: 70%;
-	padding: 15px;
+	padding: 15px 0 15px 100px;
 } 
 
-.header__goal {
+.header__contacts ul {
+	margin-bottom: 30px;
+	padding: 0;
+} 
+.header__contacts ul li:before {
+	content: none;
+}
+
+article {
+	max-width: 1200px;
+	margin: auto;
 	padding: 15px;
-	width: 100%;
+}
+
+.scills, .code, .experience, .education, .languages {
+	border-radius: 25px; 
+	padding: 50px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 8px 8px;	
+	background: #1a173f;
+}
+
+@media (max-width: 768px) {
+	.header__photo, .header__contacts, .header__wrap, .scills, .code, .experience, .education, .languages {
+		width: 100%; 
+		padding: 15px;
+	} 
+	.code__wrap {
+		padding: 0;
+	}
+	code {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 450px) { 
+	code {
+		white-space: pre-line;
+	}
 }

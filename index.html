@@ -9,27 +9,26 @@
 </head>
 <body>
 	<header>
-		<div class="header__title">
-			<h1>Evgenii Zheleznov <span>( rsschool-cv )</span></h1>
-		</div>
-
-		<hr>
-
-		<div class="header__photo">
-			<img src="ava.jpg" alt="">
-		</div>
-		<div class="header__contacts">
-			<h2>Contacts</h2>
-			<ul>
-				<li><strong>Phone:</strong> <a href="tel:89992045109">+7 999-204-51-09</a></li>
-				<li><strong>Email:</strong> <a href="mailto:zheleznov.evgeniy@mail.ru">zheleznov.evgeniy@mail.ru</a></li>
-				<li><strong>Telegram:</strong> <a href="https://t.me/evgeniy_zheleznov">evgeniy_zheleznov</a></li>
-			</ul>
-		</div>
-		<div class="header__goal">
-			<p>My goal is to master - JS, React, Vue, NodeJS.</p>
-			<p>And also in the future to learn how to write programs on Phyton, Kotlin, create your own neural network and Data Science.</p>
-		</div>
+		<hr> 
+		<div class="header__wrap">
+			<div class="header__title">
+				<h1>Evgenii Zheleznov <span>(rsschool-cv)</span></h1>
+			</div>
+	 
+			<div class="header__photo">
+				<img src="ava.jpg" alt="">
+			</div>
+			<div class="header__contacts">
+				<h2>Contacts</h2>
+				<ul>
+					<li><strong>Phone:</strong><a href="tel:89992045109">+7 999-204-51-09</a></li>
+					<li><strong>Email:</strong><a href="mailto:zheleznov.evgeniy@mail.ru">zheleznov.evgeniy@mail.ru</a></li>
+					<li><strong>Telegram:</strong><a href="https://t.me/evgeniy_zheleznov">evgeniy_zheleznov</a></li>
+				</ul>
+				<p>My goal is to master - JS, React, Vue, NodeJS.</p>
+				<p>And also in the future to learn how to write programs on Phyton, Kotlin, create your own neural network and Data Science.</p>
+			</div> 
+		</div> 
 		<hr>
 	</header>
 	<main>
@@ -54,20 +53,25 @@
 					<h2>Code example:</h2>
 					<p>Implement and export a default function that counts the sum of all natural numbers less than n (the first argument) that are divisible by the numbers a or b (the second and third arguments) without remainder. n - can only be a natural number.</p>
 
-					<code>
-						const isPrime = (n, a, b) => {
-							let result = 0;
-							
-							for (let i = 1; i < n; i++) {
-							  if ((i % a === 0) || (i % b === 0)) {
-								result = result + i;
-							  }
-							}
-							return result;
-							}
-							
-							console.log(isPrime(10, 2, 4));
-					</code>
+					<div class="code__wrap">
+						<pre> 
+							<code> 
+const isPrime = (n, a, b) => {
+    let result = 0;
+									
+        for (let i = 1; i < n; i++) {
+        if ((i % a === 0) || (i % b === 0)) {
+            result = result + i;
+        }
+    }
+    return result;
+}
+								
+console.log(isPrime(10, 2, 4));
+							</code>
+						</pre>
+ 
+					</div> 
 				</div>
 
 				<hr>
