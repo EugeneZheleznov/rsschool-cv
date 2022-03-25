@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>HTML, CSS & Git Basics</title>
+</head>
+<body>
+	<header>
+		<div class="header__title">
+			<h1>Evgenii Zheleznov <span>( rsschool-cv )</span></h1>
+		</div>
+
+		<hr>
+
+		<div class="header__photo">
+			<img src="ava.jpg" alt="">
+		</div>
+		<div class="header__contacts">
+			<h2>Contacts</h2>
+			<ul>
+				<li><strong>Phone:</strong> <a href="tel:89992045109">+7 999-204-51-09</a></li>
+				<li><strong>Email:</strong> <a href="mailto:zheleznov.evgeniy@mail.ru">zheleznov.evgeniy@mail.ru</a></li>
+				<li><strong>Telegram:</strong> <a href="https://t.me/evgeniy_zheleznov">evgeniy_zheleznov</a></li>
+			</ul>
+		</div>
+		<div class="header__goal">
+			<p>My goal is to master - JS, React, Vue, NodeJS.</p>
+			<p>And also in the future to learn how to write programs on Phyton, Kotlin, create your own neural network and Data Science.</p>
+		</div>
+		<hr>
+	</header>
+	<main>
+		<article>
+			<section>
+
+				<div class="scills">
+					<h2>Scills:</h2>
+					<ul>
+						<li>HTML, CSS (SCSS)</li>
+						<li>GULP, Git</li>
+						<li>JS Basics</li>
+						<li>WordPress - I can create a template and connect the WooCommerce online store</li>
+						<li>Bitrix, ModX, OpenCart, Joomla - only content edits, and minor edits in the template</li>
+						<li>Graphic Editors: Adobe Photoshop / Illustrator</li>
+					</ul>
+				</div>
+
+				<hr>
+
+				<div class="code">
+					<h2>Code example:</h2>
+					<p>Implement and export a default function that counts the sum of all natural numbers less than n (the first argument) that are divisible by the numbers a or b (the second and third arguments) without remainder. n - can only be a natural number.</p>
+
+					<code>
+						const isPrime = (n, a, b) => {
+							let result = 0;
+							
+							for (let i = 1; i < n; i++) {
+							  if ((i % a === 0) || (i % b === 0)) {
+								result = result + i;
+							  }
+							}
+							return result;
+							}
+							
+							console.log(isPrime(10, 2, 4));
+					</code>
+				</div>
+
+				<hr>
+
+				<div class="experience">
+					<h2>Experience:</h2>
+					<ul>
+						<li>web programmer - about 5 years </li>
+						<li>courses Hexlet (layout designer, JS)</li>
+					</ul>
+				</div>
+
+				<hr>
+
+				<div class="education">
+					<h2>Education:</h2>
+					<ul>
+						<li>2021 courses Hexlet (layout designer, JS)</li>
+						<li>2012 Ugra Polytechnic College - “Maintenance and repair of motor transport”, Technician</li>
+						<li>2010 Ugra Polytechnic College - “Car mechanic”, Car repair mechanic (3rd category). , Driver of category “B”, “C”</li>
+					</ul>
+				</div>
+
+				<hr>
+
+				<div class="languages">
+					<h2>Languages:</h2>
+					<ul>
+						<li>Russian - native</li>
+						<li>English - Elementary</li>
+					</ul>
+				</div>
+			</section>
+		</article>
+	</main>
+	<footer>
+
+	</footer>
+</body>
+</html>
